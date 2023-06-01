@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.how {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 20px;
+}
+.how a {
+    text-decoration: none;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+.click button {
+    background-color: #353535;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+span {
+    color: #FF0000;
+}
+.employ {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.post {
+    display: flex;
+    margin-top: 30px;
+}
+.post a {
+    text-decoration: none;
+}
+.post button {
+    background-color: #353535;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+figure  {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+figure img {
+    height: 110px;
+}
+h3 {
+    padding-left: 115px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ready {
+    text-align: center;
+    padding-top: 70px;
+}
+.ready h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.ready p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-bottom: 10px;
+}
+input {
+    width: 500px;
+    padding: 15px;
+    background-color: #EBEBEB;
+    border: 2px solid #ABB0B2;
+    border-radius: 5px;
+}
+h6 {
+    font-size: 15px;
+    padding-top: 40px;
+}
+form button {
+    background-color: #353535;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 30px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #353535;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer h5:last-child {
+    padding-top: 20px;
+}
+
+
+@media (max-width:768px) {
+    .employ {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    figure  {
+       flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    figure img {
+        height: 110px;
+        object-fit: contain;
+    }
+    footer {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+}
